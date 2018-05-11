@@ -61,3 +61,22 @@ img{max-width: 100%}
 .menu li a:hover{
 	border: 1px solid #002862;
 }
+
+.banner{
+	width: 100%;
+	float:left;
+	text-align: center;
+	padding: 3% 4%;
+	background: url(../img/bg.jpg) no-repeat fixed;)
+}
+
+.banner h2{
+	font-size: 2.5em;
+	color: #fff;
+	font-weight: 700;
+
+}
+.banner h3{
+	font-size: 1.5em;
+	color: #fff;
+}
