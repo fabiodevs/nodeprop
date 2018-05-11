@@ -203,3 +203,14 @@ img{max-width: 100%}
 	margin-top: 2%;
 	color: rgba(255,255,255,0.7);
 }
+
+/*==========MOBILE FIRST==========*/
+/*==========SMARTPHONE==========*/
+
+@media screen and (min-width: 480PX){
+	.logo{
+	width: 250px;
+	float: left;
+	background: url(../img/logo.png) center center/250px no-repeat;
+}
+}
