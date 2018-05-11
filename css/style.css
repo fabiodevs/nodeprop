@@ -13,10 +13,10 @@ img{max-width: 100%}
 	padding: 3% 4%
 }
 .logo{
-	width: 56px;
-	height: 56px;
+	width: 130px;
+	height: 70px;
 	float: left;
-	background: url(../img/logo-mobile.png) center center/56px no-repeat;
+	background: url(../img/logo_fdl_mobile.png) center center/130px no-repeat;
 	font-size:0;
 }
 
@@ -26,7 +26,7 @@ img{max-width: 100%}
 	float: right;
 	text-align: center;
 	color: #fff; border-radius: 56px;cursor: pointer;
-	background: linear-gradiente(to right, #002862, #002862)
+	background: linear-gradient(to right, #336699,#002862);
 }
 /*MENU*/
 .menu{
@@ -70,13 +70,148 @@ img{max-width: 100%}
 	background: url(../img/bg.jpg) no-repeat fixed;)
 }
 
-.banner h2{
+.title{
+	width: 100%;
+}
+
+.title h2{
 	font-size: 2.5em;
 	color: #fff;
 	font-weight: 700;
 
 }
-.banner h3{
+.title h3{
 	font-size: 1.5em;
 	color: #fff;
+}
+
+.buttons{
+	width: 100%;
+	margin-top: 2%;
+}
+.buttons i{
+	float: right;
+}
+.btn-cadastrar{
+	width: 100%;
+	font-size: 1.5em;
+	text-align: left;
+	cursor: pointer;
+	padding: 5%;
+	border-radius: 10px;
+	background-color: #fff;
+	color: #130400;
+}
+.btn-sobre{
+	width: 100%;
+	font-size: 1.5em;
+	text-align: left;
+	cursor: pointer;
+	padding: 5%;
+	border-radius: 10px;
+	background-color:#130400;
+	color: #fff;
+}
+
+/*SERVIÇOS*/
+.servicos{
+	width: 100%;
+	float: left;
+	padding: 3% 4%;
+}
+
+.servico{
+	width: 100%;
+	background-color: #fff;
+	text-align: left;
+	border-radius: 7%;
+	margin-bottom: 3%;
+}
+.servico img{
+	border-radius: 7px 7px 0 0 
+}
+.inner{
+	padding: 7%;
+}
+.inner a{
+	font-size: 1.5em;
+	color: #130400;
+	font-weight: 700;
+}
+
+.inner h4{
+	font-size: 1.2em;
+	color: #130400;
+	margin-top: 2%; 
+}
+
+.inner p{
+	color: #130400;
+	margin-top: 6%;
+}
+
+/* NEWSLETTER */
+.newsletter{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 3px 4px;
+	background-color: #130400;
+}
+.newsletter h2{
+	font-size: 1.5em;
+	color: #fff;
+	font-weight: 700;
+}
+.newsletter h3{
+	color: #fff;
+}
+
+.newsletter form{
+	margin-top: 3%;
+}
+
+.newsletter input{
+	width: 100%;
+	background-color: #130400;
+	border: 1px solid rgba(255,255,255,0.3);  
+	color: #fff;
+	padding: 5%;
+	border-radius: 5px;
+}
+
+.newsletter button{
+	width: 100%
+	background-color:#fff;
+	font-size: 1.5em;
+	color: #130400;
+	padding: 5%;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 2%;
+}
+
+/*RODAPÉ*/
+.rodape{
+	width: 100%;
+	float:left;
+	padding: 3% 4%;
+	text-align: center;
+	background: linear-gradient(to right, #336699,#002862);
+}
+.social-icons a{
+	font-size: 1.5em;
+	color: rgba(255,255,255,0.7);
+	margin-right: 3%;
+}
+.social-icons a:last-chield{
+	margin-right: 0;
+}
+.social-icons a:hover{
+	color: rgb(255,255,255);
+}
+
+.copyrigth{
+	margin-top: 2%;
+	color: rgba(255,255,255,0.7);
 }
