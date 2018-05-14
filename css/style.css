@@ -28,10 +28,10 @@ img{max-width: 100%}
 
 /*CABEÇALHO*/
 .logo{
-	width: 56px;
-	height: 56px;
+	width: 130px;
+	height: 70px;
 	float: left;
-	background: url(../img/logo_simples.png) center center/45px no-repeat;
+	background: url(../img/logo_fdl_mobile.png) center center/130px no-repeat;
 	font-size:0;
 }
 
@@ -118,7 +118,7 @@ img{max-width: 100%}
 }
 .btn-sobre{
 	margin-top: 2%;
-	color: #fff;
+	color: #130400;
 }
 
 /*SERVIÇOS*/
@@ -211,7 +211,7 @@ img{max-width: 100%}
 	.logo{
 	width: 250px;
 	float: left;
-	background: url(../img/logo.png) center center/250px no-repeat;
+	background: url(../img/logo_widescreen.png) center center/250px no-repeat;
 }
 }
 
