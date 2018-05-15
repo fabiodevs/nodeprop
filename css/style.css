@@ -113,12 +113,12 @@ img{max-width: 100%}
 }
 
 .btn-cadastrar{
-	
+
 	color: #130400;
 }
-.btn-sobre{
+.btn-loja{
 	margin-top: 2%;
-	color: #130400;
+	color: #fff;
 }
 
 /*SERVIÇOS*/
@@ -126,12 +126,12 @@ img{max-width: 100%}
 
 .servico{
 	width: 100%;
-	text-align: left;
+	text-align: center;
 	border-radius: 7%;
 	margin-bottom: 3%;
 }
 .servico img{
-	border-radius: 7px 7px 0 0 
+	border-radius: 7px 7px 0 0
 }
 .inner{
 	padding: 7%;
@@ -145,12 +145,23 @@ img{max-width: 100%}
 .inner h4{
 	font-size: 1.2em;
 	color: #130400;
-	margin-top: 2%; 
+	margin-top: 2%;
 }
 
 .inner p{
 	color: #130400;
 	margin-top: 6%;
+}
+
+
+.conteudos{
+	width: 100%;
+	text-align: center;
+	border-radius: 7%;
+	margin-bottom: 3%;
+}
+.servico img{
+	border-radius: 7px 7px 0 0
 }
 
 /* NEWSLETTER */
@@ -169,7 +180,7 @@ img{max-width: 100%}
 
 .newsletter input{
 	width: 100%;
-	border: 1px solid rgba(255,255,255,0.3);  
+	border: 1px solid rgba(255,255,255,0.3);
 	color: #fff;
 	padding: 5%;
 	border-radius: 5px;
@@ -227,7 +238,7 @@ img{max-width: 100%}
 		margin-right: 0;
 	}
 	.newsletter h2{
-	font-size: 2em;	
+	font-size: 2em;
 }
 	.newsletter h3{
 		font-size: 1.5em;
@@ -263,7 +274,7 @@ img{max-width: 100%}
 		font-size: 2em;
 	}
 	.buttons{
-		width: 30%;
+		width: 20%;
 		float: right;
 		margin-top: 0;
 	}
@@ -307,7 +318,7 @@ img{max-width: 100%}
 	}
 	.menu li{
 		padding: 0;
-		float: left;	
+		float: left;
 	}
 	.menu li a{
 		color: #130400;
@@ -318,5 +329,5 @@ img{max-width: 100%}
 		border: none;
 		color: #336699;
 	}
-	
+
 }
