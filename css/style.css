@@ -102,6 +102,10 @@ img{max-width: 100%}
 .buttons i{
 	float: right;
 }
+.buttons a:link, a:active, a:visited{
+	color: #130400;
+	text-decoration: none;
+}
 
 .btn{
 	width: 100%;
@@ -161,6 +165,17 @@ img{max-width: 100%}
 	margin-bottom: 3%;
 }
 .servico img{
+	border-radius: 7px 7px 0 0
+}
+
+/** Pagina de serviços **/
+.pgservico{
+	width: 100%;
+	text-align: center;
+	border-radius: 7%;
+	margin-bottom: 3%;
+}
+.pgservico img{
 	border-radius: 7px 7px 0 0
 }
 
@@ -256,6 +271,16 @@ img{max-width: 100%}
 		float: right;
 		margin-top: 0;
 	}
+
+	/** Página de serviço **/
+	.pgservico{
+		width: 49%;
+		float: left;
+		margin-right: 2%;
+	}
+	.pgservico:nth-child(2){
+		margin-right: 0;
+	}
 }
 
 /*==========MEDIUM DEVICES- TABLETS - & DESKTOP==========*/
@@ -287,13 +312,16 @@ img{max-width: 100%}
 	.servico:nth-child(3){
 		margin-right: 0;
 	}
-	.newsletter input{
-		width: 60%;
-		float: none;
+
+	/** Página de serviço **/
+	.pgservico{
+		width: 23%;
 	}
-	.newsletter button{
-		width: 20%;
-		float: none;
+	.pgservico:nth-child(2){
+		margin-right: 2%;
+	}
+	.pgservico:nth-child(3){
+		margin-right: 0;
 	}
 }
 
@@ -332,6 +360,26 @@ img{max-width: 100%}
 
 	a:hover{
 	text-decoration: underline;
+	}
+
+	/** pagina de serviços **/
+	.pgservico{
+		width: 23%;
+	}
+	.pgservico:nth-child(3){
+		margin-right: 2%;
+	}
+	.pgservico:nth-child(4){
+		margin-right: 0;
+	}
+
+	.newsletter input{
+		width: 60%;
+		float: none;
+	}
+	.newsletter button{
+		width: 20%;
+		float: none;
 	}
 
 }
